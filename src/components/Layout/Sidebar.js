@@ -1,13 +1,18 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import PropTypes from 'prop-types'
 
-const Sidebar = props => {
+
+
+const Sidebar =() => {
+ 
+  
     return (
       <>
+       
         <div className="nav-left-sidebar sidebar-dark">
           <div className="menu-list">
             <nav className="navbar navbar-expand-lg navbar-light">
-              <a className="d-xl-none d-lg-none" href="#">
+              <a className="d-xl-none d-lg-none" href="/#">
                 Dashboard
               </a>
               <button
@@ -21,13 +26,14 @@ const Sidebar = props => {
               >
                 <span className="navbar-toggler-icon" />
               </button>
+
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav flex-column">
-                  <li className="nav-divider">Menu</li>
+                  <li className="nav-divider"> Menu</li>
                   <li className="nav-item ">
                     <a
                       className="nav-link active"
-                      href="#"
+                      href="/#"
                       data-toggle="collapse"
                       aria-expanded="false"
                       data-target="#submenu-1"
@@ -47,7 +53,7 @@ const Sidebar = props => {
                             data-target="#submenu-1-2"
                             aria-controls="submenu-1-2"
                           >
-                           Students
+                            Students
                           </a>
                           <div
                             id="submenu-1-2"
@@ -164,7 +170,7 @@ const Sidebar = props => {
                             <span className="badge badge-secondary">New</span>
                           </a>
                         </li>
-                        
+
                         <li className="nav-item">
                           <a className="nav-link" href="pages/tabs.html">
                             Tabs
@@ -192,7 +198,7 @@ const Sidebar = props => {
                             C3 Charts
                           </a>
                         </li>
-                       
+
                         <li className="nav-item">
                           <a className="nav-link" href="pages/chart-gauge.html">
                             Guage
@@ -523,7 +529,7 @@ const Sidebar = props => {
                     </div>
                   </li>
                   <li className="nav-item"> */}
-                    {/* <a
+                  {/* <a
                       className="nav-link"
                       href="#"
                       data-toggle="collapse"
@@ -592,8 +598,5 @@ const Sidebar = props => {
     );
 }
 
-Sidebar.propTypes = {
-
-}
 
 export default Sidebar

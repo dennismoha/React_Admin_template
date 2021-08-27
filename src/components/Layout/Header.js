@@ -1,6 +1,12 @@
-import React from 'react'
+/*
+  THIS CONTAINS THE NAVBAR
+*/
 
-const Header = () => {
+import React from 'react'
+import Sidebar from './Sidebar';
+
+
+const Header = ({children}) => {
     return (
       <>
         {/* navbar */}
@@ -264,6 +270,8 @@ const Header = () => {
         </div>
         {/* ============================================================== */}
         {/* end navbar */}
+        <Sidebar />
+        {children}
       </>
     );
 }
