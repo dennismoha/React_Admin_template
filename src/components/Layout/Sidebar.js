@@ -160,7 +160,7 @@ const Sidebar =() => {
                       aria-controls="submenu-2"
                     >
                       <i className="fa fa-fw fa-rocket" />
-                      Admins
+                      Adminss
                     </a>
                     <div id="submenu-2" className="collapse submenu" style={{}}>
                       <ul className="nav flex-column">

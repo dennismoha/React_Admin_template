@@ -14,7 +14,7 @@ const Header = ({children}) => {
         <div className="dashboard-header">
           <nav className="navbar navbar-expand-lg bg-white fixed-top">
             <a className="navbar-brand" href="index.html">
-              Concept
+              Sample Admin
             </a>
             <button
               className="navbar-toggler"
