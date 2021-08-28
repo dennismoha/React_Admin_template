@@ -8,6 +8,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import Students from './components/students/Students';
 
 
 
@@ -20,6 +21,7 @@ function App() {
         <Header />
         <Switch>
           <Route path="/" exact component={Dashboard2} />
+          <Route path="/students" exact component={Students} />
         </Switch>
       </Router>
     </>
